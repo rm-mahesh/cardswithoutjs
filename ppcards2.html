@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .maincontainer{
+            height: 100vh;
+            width: 100vw;
+            background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .container{
+            height: 370px;
+            width:270px;
+            background-color:beige  ;
+            border-radius: 15px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .subcontainer1{
+            width: 270px;
+            height:100px;
+        }
+        .imageclass img{
+            width: 270px;
+            height: 100px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .subcontainer2{
+            padding: 15px;
+            width:auto;
+            height:auto;
+            
+        }
+        .subcontainer2 h4{
+            font-size: 18px;
+            text-align: center;
+        
+        }
+        .subcontainer2 p{
+            font-weight: 9      00;
+            font-size: 10px;
+            text-align: center;
+
+        }
+        .subcontainer3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            justify-content: space-around;
+            width:250px;
+            height:43px;
+            margin-left: 10px;
+            background-color:rgb(196, 196, 151);
+            border-radius: 10px;
+        }
+        .subcontainer3 pre,.subcontainer3 a{
+            font-size: 11px;
+            font-weight: bolder;
+            padding-left: 5px;
+            text-decoration: none;
+        }
+        .subcontainer3 img{
+
+            border-radius: 10px;
+        }
+        .innersubcontainerof3img{
+            width: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+        }
+        .subcontainer4{
+            width:250px;
+            height: 45px;
+            background-color:rgba(3, 3, 66, 0.921);
+            margin: 10px;
+            margin-top: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 1px 1px 20px rgb(20, 20, 71);
+        }
+        .subcontainer4 a{
+            color:white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: bolder;
+        }
+        .subcontainer5{
+            margin: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .subcontainer5 a{
+            color: black;
+            text-decoration: none ;
+            font-size: large;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="container">
+            <div class="subcontainer1">
+                <div class="imageclass">
+                    <img src="th.jpeg" alt="" >
+                </div>
+
+
+            </div>
+            <div class="subcontainer2">
+            <h4>Order Summary</h4><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eaque? Hic commodi placeat ex aperiam voluptatum neque ratione dolore ea?</p>
+
+            </div>
+            <div class="subcontainer3">
+                <div class="innersubcontainerof3img">
+                    <img id="innerid3img" src="logo.jpeg" alt="" width="30px">
+                        <pre>Annual Plan
+$199.99</pre>
+                    </div>
+                    <a href="#">Change Plan</a>
+                    
+
+                <!-- </div> -->
+                
+
+            </div>
+            <div class="subcontainer4">
+                <a href="#">Proceed to payment</a>
+
+            </div>
+            <div class="subcontainer5">
+                <a href="#">Cancel order</a>
+
+            </div>
+    </div>
+</div>
+    
+</body>
+</html>
